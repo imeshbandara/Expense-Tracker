@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: expense-tracker
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/expensetracker
+      auto-index-creation: true
+
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970 # Replace with secure generated key in production
+  expiration: 86400000 # 1 day in milliseconds
